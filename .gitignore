@@ -1,0 +1,19 @@
+# Build
+target/
+*.class
+*.jar
+!pom.xml
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Local DB backups (keep pharmacy.db as demo seed if present)
+*.db.bak*
+*.bak_*
+
+# Logs
+*.log
