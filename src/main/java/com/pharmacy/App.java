@@ -15,8 +15,7 @@ import java.util.Map;
  * Eczane Stok ve İlaç Takip Sistemi
  * Giriş noktası — Tema yönetimi ve uygulama başlatma.
  * 
- * @author Resul Kılınç — 22110131066
- * KSÜ Görsel Programlama Dersi Projesi
+ * @author Resul Kılınç
  */
 public class App {
 
@@ -30,7 +29,6 @@ public class App {
         // Konsol Banner — Profesyonel başlangıç
         System.out.println("╔══════════════════════════════════════════╗");
         System.out.println("║  Eczane Stok ve İlaç Takip Sistemi v1.0 ║");
-        System.out.println("║  KSÜ Görsel Programlama Projesi         ║");
         System.out.println("║  Geliştirici: Resul Kılınç              ║");
         System.out.println("╚══════════════════════════════════════════╝");
 

@@ -17,7 +17,7 @@ public class AboutDialog extends JDialog {
     }
 
     private void initUI() {
-        setSize(420, 380);
+        setSize(420, 320);
         setLocationRelativeTo(getOwner());
         setResizable(false);
         setLayout(new BorderLayout());
@@ -56,11 +56,8 @@ public class AboutDialog extends JDialog {
         pnlMain.add(Box.createVerticalStrut(15));
 
         // Bilgiler
-        addInfoLine(pnlMain, "Ders:", "Görsel Programlama");
-        addInfoLine(pnlMain, "Üniversite:", "Kahramanmaraş Sütçü İmam Üniversitesi");
-        addInfoLine(pnlMain, "Bölüm:", "Bilgisayar Mühendisliği");
         addInfoLine(pnlMain, "Geliştirici:", "Resul Kılınç");
-        addInfoLine(pnlMain, "Öğrenci No:", "22110131066");
+        addInfoLine(pnlMain, "Tür:", "Masaüstü stok otomasyonu");
 
         pnlMain.add(Box.createVerticalStrut(12));
 
