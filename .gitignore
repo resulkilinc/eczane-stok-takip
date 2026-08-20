@@ -1,8 +1,19 @@
-# Build
+# Build artifacts
 target/
 *.class
 *.jar
 !pom.xml
+
+# Runtime / local data
+*.db
+*.db-*
+*.db.bak*
+*.bak_*
+
+# Course report exports (local only)
+rapor.html
+rapor.pdf
+*.pdf
 
 # OS / IDE
 .DS_Store
@@ -10,10 +21,4 @@ target/
 *.iml
 .vscode/
 *.swp
-
-# Local DB backups (keep pharmacy.db as demo seed if present)
-*.db.bak*
-*.bak_*
-
-# Logs
 *.log
